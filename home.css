@@ -54,6 +54,10 @@ a:active {
   text-align: center;
   padding-top: 1em;
 }
+.jobImage {
+    max-width: 100%;
+    max-height: 100%;
+  }
 
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
   h1 {
@@ -90,6 +94,11 @@ a:active {
     width: 90%;
     padding-left: 10%;
   }
+  .jobImage {
+    max-width: 30%;
+    padding-bottom: 1em;
+    padding-top: 2em;
+  }
 }
 @media only screen and (max-width: 584px) {
   h1 {
@@ -107,5 +116,8 @@ a:active {
   .hero {
     width: 140%;
     margin-left: -40%;
+  }
+  .jobImage {
+    max-width: 50%;
   }
 }
